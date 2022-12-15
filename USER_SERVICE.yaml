@@ -1,1 +1,1 @@
-server.port:9012
+spring.server.port:9012
