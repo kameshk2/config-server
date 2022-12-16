@@ -8,5 +8,5 @@ eureka:
     hostname: localhost
     
 test:
-  cloudValue: hello2
+  cloudValue: hello3
   
