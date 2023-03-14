@@ -7,6 +7,15 @@ eureka:
   instance:
     hostname: service-registry
     
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+      
 test:
   cloudValue: hello4
   
